@@ -10,13 +10,14 @@
 		1F64CFE52042A6F500F596EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFE42042A6F500F596EF /* AppDelegate.swift */; };
 		1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFEB2042A6F500F596EF /* Assets.xcassets */; };
 		1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */; };
+		1F64CFF72042A72B00F596EF /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFF62042A72B00F596EF /* Workout.swift */; };
+		1F64CFF92042A7CC00F596EF /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFF82042A7CC00F596EF /* Exercise.swift */; };
+		1FD669592042AA0400FC1B72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */; };
 		3C8007732042A8D9006EF477 /* UIViewController+StoryboardInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8007722042A8D9006EF477 /* UIViewController+StoryboardInstance.swift */; };
 		3C8007752042AAB2006EF477 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8007742042AAB2006EF477 /* HomeViewController.swift */; };
 		3C8007772042AB3E006EF477 /* OpenGainzCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */; };
 		3C8007792042AC14006EF477 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8007782042AC14006EF477 /* HomeViewController.storyboard */; };
-		1F64CFF72042A72B00F596EF /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFF62042A72B00F596EF /* Workout.swift */; };
-		1F64CFF92042A7CC00F596EF /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFF82042A7CC00F596EF /* Exercise.swift */; };
-		1FD669592042AA0400FC1B72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */; };
+		3C80077A2042E8C2006EF477 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFF02042A6F500F596EF /* Info.plist */; };
 		DE2F5A4FF65E3A5370935F12 /* Pods_OpenGainz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4730CAB8BD6E2AD4D3CE85 /* Pods_OpenGainz.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,14 +27,14 @@
 		1F64CFEB2042A6F500F596EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F64CFEE2042A6F500F596EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F64CFF02042A6F500F596EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C8007722042A8D9006EF477 /* UIViewController+StoryboardInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryboardInstance.swift"; sourceTree = "<group>"; };
-		3C8007742042AAB2006EF477 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGainzCoordinator.swift; sourceTree = "<group>"; };
-		3C8007782042AC14006EF477 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		1F64CFF62042A72B00F596EF /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		1F64CFF82042A7CC00F596EF /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B7043FFC569F2CE4C82EB1D /* Pods-OpenGainz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGainz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGainz/Pods-OpenGainz.debug.xcconfig"; sourceTree = "<group>"; };
+		3C8007722042A8D9006EF477 /* UIViewController+StoryboardInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryboardInstance.swift"; sourceTree = "<group>"; };
+		3C8007742042AAB2006EF477 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGainzCoordinator.swift; sourceTree = "<group>"; };
+		3C8007782042AC14006EF477 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		B49998C46EF89F0E7DA63E0E /* Pods-OpenGainz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGainz.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGainz/Pods-OpenGainz.release.xcconfig"; sourceTree = "<group>"; };
 		FF4730CAB8BD6E2AD4D3CE85 /* Pods_OpenGainz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGainz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,14 +77,11 @@
 				3C8007782042AC14006EF477 /* HomeViewController.storyboard */,
 				3C8007742042AAB2006EF477 /* HomeViewController.swift */,
 				1F64CFF02042A6F500F596EF /* Info.plist */,
-				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
 				3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */,
 				3C8007722042A8D9006EF477 /* UIViewController+StoryboardInstance.swift */,
 				1F64CFF82042A7CC00F596EF /* Exercise.swift */,
 				1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */,
 				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
-				1F64CFE82042A6F500F596EF /* Main.storyboard */,
-				1F64CFE62042A6F500F596EF /* ViewController.swift */,
 				1F64CFF62042A72B00F596EF /* Workout.swift */,
 			);
 			path = OpenGainz;
@@ -168,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C80077A2042E8C2006EF477 /* Info.plist in Resources */,
 				1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */,
 				1FD669592042AA0400FC1B72 /* GoogleService-Info.plist in Resources */,
 				1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */,
@@ -184,9 +183,26 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OpenGainz/Pods-OpenGainz-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -199,9 +215,40 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OpenGainz/Pods-OpenGainz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -214,13 +261,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGainz-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -366,7 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y735S7YDLL;
+				DEVELOPMENT_TEAM = 7GGP2K9RNK;
 				INFOPLIST_FILE = OpenGainz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -383,7 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y735S7YDLL;
+				DEVELOPMENT_TEAM = 7GGP2K9RNK;
 				INFOPLIST_FILE = OpenGainz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

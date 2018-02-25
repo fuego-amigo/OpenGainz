@@ -20,6 +20,7 @@ internal class OpenGainzCoordinator: NSObject {
     super.init()
 
     homeViewController.delegate = self
+    homeViewController.dataSource = self
   }
 
   internal var rootViewController: UIViewController {
@@ -27,8 +28,18 @@ internal class OpenGainzCoordinator: NSObject {
   }
 }
 
-extension OpenGainzCoordinator: HomeViewControllerDelegate {
+extension OpenGainzCoordinator: HomeViewControllerDelegate, HomeViewControllerDataSource {
   internal func homeViewControllerDidSelectAddWorkout(viewController: HomeViewController) {
     print("add workout")
+  }
+
+  internal func HomeViewControllerDidRequestWorkouts(viewController: HomeViewController) -> [Workout] {
+    let exercise = Exercise(name: "Bench Press", weight: 100, sets: 5, reps: 5)
+
+    let testWorkout1 = Workout(name: "Chest and Triceps", exercises: [exercise])
+
+    let testWorkout2 = Workout(name: "Back and Biceps", exercises: [exercise])
+
+    return [testWorkout1, testWorkout2]
   }
 }
