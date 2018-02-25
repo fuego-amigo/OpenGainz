@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1F64CFE52042A6F500F596EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFE42042A6F500F596EF /* AppDelegate.swift */; };
-		1F64CFE72042A6F500F596EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFE62042A6F500F596EF /* ViewController.swift */; };
-		1F64CFEA2042A6F500F596EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFE82042A6F500F596EF /* Main.storyboard */; };
 		1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFEB2042A6F500F596EF /* Assets.xcassets */; };
 		1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */; };
+		3C8007732042A8D9006EF477 /* UIViewController+StoryboardInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8007722042A8D9006EF477 /* UIViewController+StoryboardInstance.swift */; };
+		3C8007752042AAB2006EF477 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8007742042AAB2006EF477 /* HomeViewController.swift */; };
+		3C8007772042AB3E006EF477 /* OpenGainzCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */; };
+		3C8007792042AC14006EF477 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8007782042AC14006EF477 /* HomeViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F64CFE12042A6F500F596EF /* OpenGainz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGainz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F64CFE42042A6F500F596EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F64CFE62042A6F500F596EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F64CFE92042A6F500F596EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F64CFEB2042A6F500F596EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F64CFEE2042A6F500F596EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F64CFF02042A6F500F596EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C8007722042A8D9006EF477 /* UIViewController+StoryboardInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryboardInstance.swift"; sourceTree = "<group>"; };
+		3C8007742042AAB2006EF477 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGainzCoordinator.swift; sourceTree = "<group>"; };
+		3C8007782042AC14006EF477 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				1F64CFE42042A6F500F596EF /* AppDelegate.swift */,
-				1F64CFE62042A6F500F596EF /* ViewController.swift */,
-				1F64CFE82042A6F500F596EF /* Main.storyboard */,
 				1F64CFEB2042A6F500F596EF /* Assets.xcassets */,
-				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
+				3C8007782042AC14006EF477 /* HomeViewController.storyboard */,
+				3C8007742042AAB2006EF477 /* HomeViewController.swift */,
 				1F64CFF02042A6F500F596EF /* Info.plist */,
+				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
+				3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */,
+				3C8007722042A8D9006EF477 /* UIViewController+StoryboardInstance.swift */,
 			);
 			path = OpenGainz;
 			sourceTree = "<group>";
@@ -125,7 +131,7 @@
 			files = (
 				1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */,
 				1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */,
-				1F64CFEA2042A6F500F596EF /* Main.storyboard in Resources */,
+				3C8007792042AC14006EF477 /* HomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +142,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F64CFE72042A6F500F596EF /* ViewController.swift in Sources */,
+				3C8007772042AB3E006EF477 /* OpenGainzCoordinator.swift in Sources */,
+				3C8007732042A8D9006EF477 /* UIViewController+StoryboardInstance.swift in Sources */,
 				1F64CFE52042A6F500F596EF /* AppDelegate.swift in Sources */,
+				3C8007752042AAB2006EF477 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F64CFE82042A6F500F596EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F64CFE92042A6F500F596EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
