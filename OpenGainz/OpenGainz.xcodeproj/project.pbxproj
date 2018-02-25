@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F64CFC52042A0EA00F596EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFC42042A0EA00F596EF /* AppDelegate.swift */; };
-		1F64CFC72042A0EA00F596EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFC62042A0EA00F596EF /* ViewController.swift */; };
-		1F64CFCA2042A0EA00F596EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFC82042A0EA00F596EF /* Main.storyboard */; };
-		1F64CFCC2042A0EA00F596EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFCB2042A0EA00F596EF /* Assets.xcassets */; };
-		1F64CFCF2042A0EA00F596EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFCD2042A0EA00F596EF /* LaunchScreen.storyboard */; };
+		1F64CFE52042A6F500F596EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFE42042A6F500F596EF /* AppDelegate.swift */; };
+		1F64CFE72042A6F500F596EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFE62042A6F500F596EF /* ViewController.swift */; };
+		1F64CFEA2042A6F500F596EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFE82042A6F500F596EF /* Main.storyboard */; };
+		1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFEB2042A6F500F596EF /* Assets.xcassets */; };
+		1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F64CFC12042A0EA00F596EF /* OpengGainz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpengGainz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F64CFC42042A0EA00F596EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F64CFC62042A0EA00F596EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F64CFC92042A0EA00F596EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1F64CFCB2042A0EA00F596EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F64CFCE2042A0EA00F596EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1F64CFD02042A0EA00F596EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F64CFE12042A6F500F596EF /* OpenGainz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGainz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F64CFE42042A6F500F596EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F64CFE62042A6F500F596EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F64CFE92042A6F500F596EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F64CFEB2042A6F500F596EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F64CFEE2042A6F500F596EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F64CFF02042A6F500F596EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F64CFBE2042A0E900F596EF /* Frameworks */ = {
+		1F64CFDE2042A6F500F596EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F64CFB82042A0E900F596EF = {
+		1F64CFD82042A6F500F596EF = {
 			isa = PBXGroup;
 			children = (
-				1F64CFC32042A0EA00F596EF /* OpengGainz */,
-				1F64CFC22042A0EA00F596EF /* Products */,
+				1F64CFE32042A6F500F596EF /* OpenGainz */,
+				1F64CFE22042A6F500F596EF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1F64CFC22042A0EA00F596EF /* Products */ = {
+		1F64CFE22042A6F500F596EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F64CFC12042A0EA00F596EF /* OpengGainz.app */,
+				1F64CFE12042A6F500F596EF /* OpenGainz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F64CFC32042A0EA00F596EF /* OpengGainz */ = {
+		1F64CFE32042A6F500F596EF /* OpenGainz */ = {
 			isa = PBXGroup;
 			children = (
-				1F64CFC42042A0EA00F596EF /* AppDelegate.swift */,
-				1F64CFC62042A0EA00F596EF /* ViewController.swift */,
-				1F64CFC82042A0EA00F596EF /* Main.storyboard */,
-				1F64CFCB2042A0EA00F596EF /* Assets.xcassets */,
-				1F64CFCD2042A0EA00F596EF /* LaunchScreen.storyboard */,
-				1F64CFD02042A0EA00F596EF /* Info.plist */,
+				1F64CFE42042A6F500F596EF /* AppDelegate.swift */,
+				1F64CFE62042A6F500F596EF /* ViewController.swift */,
+				1F64CFE82042A6F500F596EF /* Main.storyboard */,
+				1F64CFEB2042A6F500F596EF /* Assets.xcassets */,
+				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
+				1F64CFF02042A6F500F596EF /* Info.plist */,
 			);
-			path = OpengGainz;
+			path = OpenGainz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F64CFC02042A0E900F596EF /* OpengGainz */ = {
+		1F64CFE02042A6F500F596EF /* OpenGainz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F64CFD32042A0EA00F596EF /* Build configuration list for PBXNativeTarget "OpengGainz" */;
+			buildConfigurationList = 1F64CFF32042A6F500F596EF /* Build configuration list for PBXNativeTarget "OpenGainz" */;
 			buildPhases = (
-				1F64CFBD2042A0E900F596EF /* Sources */,
-				1F64CFBE2042A0E900F596EF /* Frameworks */,
-				1F64CFBF2042A0E900F596EF /* Resources */,
+				1F64CFDD2042A6F500F596EF /* Sources */,
+				1F64CFDE2042A6F500F596EF /* Frameworks */,
+				1F64CFDF2042A6F500F596EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpengGainz;
-			productName = OpengGainz;
-			productReference = 1F64CFC12042A0EA00F596EF /* OpengGainz.app */;
+			name = OpenGainz;
+			productName = OpenGainz;
+			productReference = 1F64CFE12042A6F500F596EF /* OpenGainz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1F64CFB92042A0E900F596EF /* Project object */ = {
+		1F64CFD92042A6F500F596EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = OpenGainz;
 				TargetAttributes = {
-					1F64CFC02042A0E900F596EF = {
+					1F64CFE02042A6F500F596EF = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 1F64CFBC2042A0E900F596EF /* Build configuration list for PBXProject "OpengGainz" */;
+			buildConfigurationList = 1F64CFDC2042A6F500F596EF /* Build configuration list for PBXProject "OpenGainz" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 1F64CFB82042A0E900F596EF;
-			productRefGroup = 1F64CFC22042A0EA00F596EF /* Products */;
+			mainGroup = 1F64CFD82042A6F500F596EF;
+			productRefGroup = 1F64CFE22042A6F500F596EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F64CFC02042A0E900F596EF /* OpengGainz */,
+				1F64CFE02042A6F500F596EF /* OpenGainz */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F64CFBF2042A0E900F596EF /* Resources */ = {
+		1F64CFDF2042A6F500F596EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F64CFCF2042A0EA00F596EF /* LaunchScreen.storyboard in Resources */,
-				1F64CFCC2042A0EA00F596EF /* Assets.xcassets in Resources */,
-				1F64CFCA2042A0EA00F596EF /* Main.storyboard in Resources */,
+				1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */,
+				1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */,
+				1F64CFEA2042A6F500F596EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F64CFBD2042A0E900F596EF /* Sources */ = {
+		1F64CFDD2042A6F500F596EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F64CFC72042A0EA00F596EF /* ViewController.swift in Sources */,
-				1F64CFC52042A0EA00F596EF /* AppDelegate.swift in Sources */,
+				1F64CFE72042A6F500F596EF /* ViewController.swift in Sources */,
+				1F64CFE52042A6F500F596EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F64CFC82042A0EA00F596EF /* Main.storyboard */ = {
+		1F64CFE82042A6F500F596EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F64CFC92042A0EA00F596EF /* Base */,
+				1F64CFE92042A6F500F596EF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1F64CFCD2042A0EA00F596EF /* LaunchScreen.storyboard */ = {
+		1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F64CFCE2042A0EA00F596EF /* Base */,
+				1F64CFEE2042A6F500F596EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1F64CFD12042A0EA00F596EF /* Debug */ = {
+		1F64CFF12042A6F500F596EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		1F64CFD22042A0EA00F596EF /* Release */ = {
+		1F64CFF22042A6F500F596EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,30 +270,30 @@
 			};
 			name = Release;
 		};
-		1F64CFD42042A0EA00F596EF /* Debug */ = {
+		1F64CFF42042A6F500F596EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y735S7YDLL;
-				INFOPLIST_FILE = OpengGainz/Info.plist;
+				INFOPLIST_FILE = OpenGainz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.opengainz.OpengGainz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opengainz.OpenGainz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1F64CFD52042A0EA00F596EF /* Release */ = {
+		1F64CFF52042A6F500F596EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y735S7YDLL;
-				INFOPLIST_FILE = OpengGainz/Info.plist;
+				INFOPLIST_FILE = OpenGainz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.opengainz.OpengGainz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opengainz.OpenGainz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F64CFBC2042A0E900F596EF /* Build configuration list for PBXProject "OpengGainz" */ = {
+		1F64CFDC2042A6F500F596EF /* Build configuration list for PBXProject "OpenGainz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F64CFD12042A0EA00F596EF /* Debug */,
-				1F64CFD22042A0EA00F596EF /* Release */,
+				1F64CFF12042A6F500F596EF /* Debug */,
+				1F64CFF22042A6F500F596EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F64CFD32042A0EA00F596EF /* Build configuration list for PBXNativeTarget "OpengGainz" */ = {
+		1F64CFF32042A6F500F596EF /* Build configuration list for PBXNativeTarget "OpenGainz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F64CFD42042A0EA00F596EF /* Debug */,
-				1F64CFD52042A0EA00F596EF /* Release */,
+				1F64CFF42042A6F500F596EF /* Debug */,
+				1F64CFF52042A6F500F596EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1F64CFB92042A0E900F596EF /* Project object */;
+	rootObject = 1F64CFD92042A6F500F596EF /* Project object */;
 }
