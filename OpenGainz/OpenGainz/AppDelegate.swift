@@ -8,41 +8,38 @@
 
 import Firebase
 import FirebaseAuthUI
-import FirebaseGoogleAuthUI
 import UIKit
 
 @UIApplicationMain
-internal class AppDelegate: UIResponder, UIApplicationDelegate, FUIAuthDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
   internal var window: UIWindow?
-  
-  internal var firebaseAuthUI = FUIAuth.defaultAuthUI()
+
+  private var openGainzCoordinator: OpenGainzCoordinator!
 
   internal func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
     FirebaseApp.configure()
 
-    firebaseAuthUI?.delegate = self
-    firebaseAuthUI?.providers = [FUIGoogleAuth()]
+    openGainzCoordinator = OpenGainzCoordinator()
 
-    let authViewController = firebaseAuthUI?.authViewController()
+    window = UIWindow(frame: UIScreen.main.bounds)
+    window?.rootViewController = openGainzCoordinator.rootViewController
+    window?.makeKeyAndVisible()
+
     return true
   }
   
-  func application(
-    _ app: UIApplication, open url: URL,
+  internal func application(
+    _ app: UIApplication,
+    open url: URL,
     options: [UIApplicationOpenURLOptionsKey: Any]) -> Bool {
+
     let sourceApplication = options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String?
     if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
       return true
     }
     return false
-  }
-
-  internal func authUI(
-    _ authUI: FUIAuth,
-    didSignInWith user: User?,
-    error: Error?) {
-    
   }
 }
