@@ -12,6 +12,8 @@
 		1F64CFEA2042A6F500F596EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFE82042A6F500F596EF /* Main.storyboard */; };
 		1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFEB2042A6F500F596EF /* Assets.xcassets */; };
 		1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */; };
+		1F64CFF72042A72B00F596EF /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFF62042A72B00F596EF /* Workout.swift */; };
+		1F64CFF92042A7CC00F596EF /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFF82042A7CC00F596EF /* Exercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1F64CFEB2042A6F500F596EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F64CFEE2042A6F500F596EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F64CFF02042A6F500F596EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F64CFF62042A72B00F596EF /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		1F64CFF82042A7CC00F596EF /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				1F64CFE42042A6F500F596EF /* AppDelegate.swift */,
-				1F64CFE62042A6F500F596EF /* ViewController.swift */,
-				1F64CFE82042A6F500F596EF /* Main.storyboard */,
 				1F64CFEB2042A6F500F596EF /* Assets.xcassets */,
-				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
+				1F64CFF82042A7CC00F596EF /* Exercise.swift */,
 				1F64CFF02042A6F500F596EF /* Info.plist */,
+				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
+				1F64CFE82042A6F500F596EF /* Main.storyboard */,
+				1F64CFE62042A6F500F596EF /* ViewController.swift */,
+				1F64CFF62042A72B00F596EF /* Workout.swift */,
 			);
 			path = OpenGainz;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F64CFE72042A6F500F596EF /* ViewController.swift in Sources */,
+				1F64CFF92042A7CC00F596EF /* Exercise.swift in Sources */,
 				1F64CFE52042A6F500F596EF /* AppDelegate.swift in Sources */,
+				1F64CFF72042A72B00F596EF /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
