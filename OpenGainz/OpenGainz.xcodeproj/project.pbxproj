@@ -14,6 +14,7 @@
 		1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */; };
 		1F64CFF72042A72B00F596EF /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFF62042A72B00F596EF /* Workout.swift */; };
 		1F64CFF92042A7CC00F596EF /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CFF82042A7CC00F596EF /* Exercise.swift */; };
+		1FD669592042AA0400FC1B72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */; };
 		DE2F5A4FF65E3A5370935F12 /* Pods_OpenGainz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4730CAB8BD6E2AD4D3CE85 /* Pods_OpenGainz.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		1F64CFF02042A6F500F596EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F64CFF62042A72B00F596EF /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		1F64CFF82042A7CC00F596EF /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B7043FFC569F2CE4C82EB1D /* Pods-OpenGainz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGainz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGainz/Pods-OpenGainz.debug.xcconfig"; sourceTree = "<group>"; };
 		B49998C46EF89F0E7DA63E0E /* Pods-OpenGainz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGainz.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGainz/Pods-OpenGainz.release.xcconfig"; sourceTree = "<group>"; };
 		FF4730CAB8BD6E2AD4D3CE85 /* Pods_OpenGainz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGainz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				1F64CFE42042A6F500F596EF /* AppDelegate.swift */,
 				1F64CFEB2042A6F500F596EF /* Assets.xcassets */,
 				1F64CFF82042A7CC00F596EF /* Exercise.swift */,
+				1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */,
 				1F64CFF02042A6F500F596EF /* Info.plist */,
 				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
 				1F64CFE82042A6F500F596EF /* Main.storyboard */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */,
+				1FD669592042AA0400FC1B72 /* GoogleService-Info.plist in Resources */,
 				1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */,
 				1F64CFEA2042A6F500F596EF /* Main.storyboard in Resources */,
 			);
