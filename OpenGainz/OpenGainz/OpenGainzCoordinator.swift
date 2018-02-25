@@ -48,7 +48,7 @@ internal class OpenGainzCoordinator: NSObject {
   }
 }
 
-extension OpenGainzCoordinator: HomeViewControllerDelegate {
+extension OpenGainzCoordinator: HomeViewControllerDelegate, HomeViewControllerDataSource {
   internal func homeViewControllerDidAppear(_ viewController: HomeViewController) {
     guard let currentFirebaseUser = Firebase.Auth.auth().currentUser else {
       navigationController.present(firebaseAuthUI!.authViewController(), animated: false, completion: nil)
