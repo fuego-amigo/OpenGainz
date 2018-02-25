@@ -6,16 +6,23 @@
 //  Copyright © 2018 OpenGainz. All rights reserved.
 //
 
+import Firebase
+import FirebaseAuthUI
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, FUIAuthDelegate {
   internal var window: UIWindow?
   private let openGainzCoordinator = OpenGainzCoordinator()
 
   func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+
+    FirebaseApp.configure()
+
+    let firebaseAuthUI = FUIAuth.defaultAuthUI()
+    firebaseAuthUI?.delegate = self
 
     window = UIWindow(frame: UIScreen.main.bounds)
 
@@ -24,5 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     return true
   }
-}
 
+  internal func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+
+  }
+}
