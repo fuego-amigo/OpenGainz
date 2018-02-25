@@ -18,6 +18,9 @@
 		3C8007772042AB3E006EF477 /* OpenGainzCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */; };
 		3C8007792042AC14006EF477 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8007782042AC14006EF477 /* HomeViewController.storyboard */; };
 		3C80077A2042E8C2006EF477 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F64CFF02042A6F500F596EF /* Info.plist */; };
+		3C8007822042FFCB006EF477 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8007812042FFCB006EF477 /* HomeViewCell.swift */; };
+		3C800784204304A0006EF477 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C800783204304A0006EF477 /* WorkoutViewController.swift */; };
+		3C8007862043050C006EF477 /* WorkoutViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8007852043050C006EF477 /* WorkoutViewController.storyboard */; };
 		DE2F5A4FF65E3A5370935F12 /* Pods_OpenGainz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4730CAB8BD6E2AD4D3CE85 /* Pods_OpenGainz.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 		3C8007742042AAB2006EF477 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGainzCoordinator.swift; sourceTree = "<group>"; };
 		3C8007782042AC14006EF477 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		3C8007812042FFCB006EF477 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		3C800783204304A0006EF477 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		3C8007852043050C006EF477 /* WorkoutViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WorkoutViewController.storyboard; sourceTree = "<group>"; };
 		B49998C46EF89F0E7DA63E0E /* Pods-OpenGainz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGainz.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGainz/Pods-OpenGainz.release.xcconfig"; sourceTree = "<group>"; };
 		FF4730CAB8BD6E2AD4D3CE85 /* Pods_OpenGainz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGainz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,15 +80,18 @@
 			children = (
 				1F64CFE42042A6F500F596EF /* AppDelegate.swift */,
 				1F64CFEB2042A6F500F596EF /* Assets.xcassets */,
+				1F64CFF82042A7CC00F596EF /* Exercise.swift */,
+				1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */,
+				3C8007812042FFCB006EF477 /* HomeViewCell.swift */,
 				3C8007782042AC14006EF477 /* HomeViewController.storyboard */,
 				3C8007742042AAB2006EF477 /* HomeViewController.swift */,
 				1F64CFF02042A6F500F596EF /* Info.plist */,
+				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
 				3C8007762042AB3E006EF477 /* OpenGainzCoordinator.swift */,
 				3C8007722042A8D9006EF477 /* UIViewController+StoryboardInstance.swift */,
-				1F64CFF82042A7CC00F596EF /* Exercise.swift */,
-				1FD669582042AA0400FC1B72 /* GoogleService-Info.plist */,
-				1F64CFED2042A6F500F596EF /* LaunchScreen.storyboard */,
 				1F64CFF62042A72B00F596EF /* Workout.swift */,
+				3C800783204304A0006EF477 /* WorkoutViewController.swift */,
+				3C8007852043050C006EF477 /* WorkoutViewController.storyboard */,
 			);
 			path = OpenGainz;
 			sourceTree = "<group>";
@@ -170,6 +179,7 @@
 				1F64CFEF2042A6F500F596EF /* LaunchScreen.storyboard in Resources */,
 				1FD669592042AA0400FC1B72 /* GoogleService-Info.plist in Resources */,
 				1F64CFEC2042A6F500F596EF /* Assets.xcassets in Resources */,
+				3C8007862043050C006EF477 /* WorkoutViewController.storyboard in Resources */,
 				3C8007792042AC14006EF477 /* HomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C800784204304A0006EF477 /* WorkoutViewController.swift in Sources */,
 				3C8007772042AB3E006EF477 /* OpenGainzCoordinator.swift in Sources */,
 				3C8007732042A8D9006EF477 /* UIViewController+StoryboardInstance.swift in Sources */,
+				3C8007822042FFCB006EF477 /* HomeViewCell.swift in Sources */,
 				1F64CFE52042A6F500F596EF /* AppDelegate.swift in Sources */,
 				3C8007752042AAB2006EF477 /* HomeViewController.swift in Sources */,
 				1F64CFF92042A7CC00F596EF /* Exercise.swift in Sources */,

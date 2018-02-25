@@ -10,24 +10,19 @@ import Foundation
 import UIKit
 
 internal protocol HomeViewControllerDataSource: class {
-  func HomeViewControllerDidRequestWorkouts(viewController: HomeViewController) -> [Workout]
+  func homeViewControllerDidRequestWorkouts(viewController: HomeViewController) -> [Workout]
 }
 
 internal protocol HomeViewControllerDelegate: class {
   func homeViewControllerDidSelectAddWorkout(viewController: HomeViewController)
+  func homeViewController(viewController: HomeViewController, DidSelectWorkout: Workout)
 }
 
 internal class HomeViewController: UITableViewController {
   internal var delegate: HomeViewControllerDelegate?
-  internal var dataSource: HomeViewControllerDataSource?
-
-  private var workouts = [Workout]()
+  internal var dataSource: HomeViewControllerDataSource!
 
   internal override func viewDidLoad() {
-    guard let dataSource = self.dataSource else { fatalError("Expected dataSource") }
-
-    workouts = dataSource.HomeViewControllerDidRequestWorkouts(viewController: self)
-
     /// Setup the Navigation Controller Visuals
     navigationItem.title = NSLocalizedString("Workouts", comment: "")
 
@@ -38,6 +33,7 @@ internal class HomeViewController: UITableViewController {
 
     /// Setup UITableView
     /// This must be set here as the Storyboard does not work
+    /// This Color must match the UIView in storyboard
     tableView.backgroundColor = UIColor.lightGray
   }
 
@@ -48,23 +44,29 @@ internal class HomeViewController: UITableViewController {
   }
 
   internal override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return workouts.count
+    return dataSource.homeViewControllerDidRequestWorkouts(viewController: self).count
   }
 
   internal override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 50
   }
 
-
   // MARK: - UITableViewControllerDelegate
 
   internal override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "WorkoutCell", for: indexPath)
+    let cell = tableView.dequeueReusableCell(withIdentifier: "WorkoutCell", for: indexPath) as! HomeViewCell
 
-    let workout = workouts[indexPath.row]
-    cell.textLabel?.text = workout.name
+    let workout = dataSource.homeViewControllerDidRequestWorkouts(viewController: self)[indexPath.row]
+
+    cell.workoutTitle = workout.name
 
     return cell
+  }
+
+  internal override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let workouts = dataSource.homeViewControllerDidRequestWorkouts(viewController: self)
+
+    delegate?.homeViewController(viewController: self, DidSelectWorkout: workouts[indexPath.row])
   }
 
   // MARK: - Private
